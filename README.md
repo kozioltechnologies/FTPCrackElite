@@ -2,7 +2,11 @@
 
 FTPCrackElite(FTPCE) is an open source ftp cracking tool that uses mutliple techingiques to crack ftp servers. FTPCE offers
 a wide variety of tools to test the secuirty of your ftp server. The tool-kit is broken down into diffrent modules or tools. These tools can 
-be used to crack a ftp server. To start cracking ftp you must first find the module you want to use. Use this command
+be used to crack a ftp server. To start cracking ftp you must start the program. FTPCE uses Python 2.7, when running on ubuntu machine run command in the saved folder of the program:
+```
+python ftpce-0.1.py
+```
+Once the program is booted and you agree to the terms of service you must then choose a module to running the command
 ```
 list
 ```
@@ -10,7 +14,7 @@ This command shows all of the modules that are loaded in the ftpce toolkit. Once
 ```
 load
 ```
-Then enter the name of the module to load it.
+Once enter you are prompted to enter the name of the module you wish to load.
 # BruteForce Module
 
 Once you select this moudule you must set the host address, the port, the username which you want to bruteforce and the password technique in which you want to brute force.
